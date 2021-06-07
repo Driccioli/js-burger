@@ -9,9 +9,11 @@ var ingredient=document.getElementsByClassName("ingredient");
 
 var calculate=document.getElementById("calculate");
 var discount= document.getElementById("discount");
-var price = 50;
+
 
 calculate.addEventListener('click', function(){
+    var price = 50;
+    var burgerName=document.getElementById("burgerName").value;
     for(var i=0; i<ingredient.length; i++){
         if(ingredient[i].checked){
             price+=4;
@@ -19,10 +21,8 @@ calculate.addEventListener('click', function(){
     }
 
     if(discount.value.length == 11){
-        console.log("Sconto attivato!");
         price -= (price/5);
     }
-    console.log("$"+ price);
-    document.getElementById("total").innerHTML = "$ " + price; 
+    document.getElementById("total").innerHTML = burgerName + " è " + "$" + price; 
 })
 
