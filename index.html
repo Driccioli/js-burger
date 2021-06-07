@@ -12,47 +12,50 @@
     <h1>Create Your Burger</h1>
     <input type="text" placeholder="Name Your Burger" id="">
     <h2>Ingredients</h2>
-    <div>
-        <label for="cheese">Cheese</label>
-        <input type="checkbox" name="" id="cheese">
-        <label for="cheese">add</label>
-    </div>
-    <div>
-        <label for="tomato">Tomato</label>
-        <input type="checkbox" name="" id="tomato">
-        <label for="tomato">add</label>
-    </div>
-    <div>
-        <label for="egg">Egg</label>
-        <input type="checkbox" name="" id="egg">
-        <label for="egg">add</label>
-    </div>
-    <div>
-        <label for="lettuce">Lettuce</label>
-        <input type="checkbox" name="" id="lettuce">
-        <label for="lettuce">add</label>
-    </div>
-    <div>
-        <label for="mustard">Mustard</label>
-        <input type="checkbox" name="" id="mustard">
-        <label for="mustard">add</label>
-    </div>
-    <div>
-        <label for="ketchup">Ketchup</label>
-        <input type="checkbox" name="" id="ketchup">
-        <label for="ketchup">add</label>
-    </div>
+    <form>
+        <div>
+            <label for="cheese">Cheese</label>
+            <input type="checkbox" class="ingredient" name="" id="cheese">
+            <label for="cheese">add</label>
+        </div>
+        <div>
+            <label for="tomato">Tomato</label>
+            <input type="checkbox" class="ingredient" name="" id="tomato">
+            <label for="tomato">add</label>
+        </div>
+        <div>
+            <label for="egg">Egg</label>
+            <input type="checkbox" class="ingredient" name="" id="egg">
+            <label for="egg">add</label>
+        </div>
+        <div>
+            <label for="lettuce">Lettuce</label>
+            <input type="checkbox" class="ingredient" name="" id="lettuce">
+            <label for="lettuce">add</label>
+        </div>
+        <div>
+            <label for="mustard">Mustard</label>
+            <input type="checkbox" class="ingredient" name="" id="mustard">
+            <label for="mustard">add</label>
+        </div>
+        <div>
+            <label for="ketchup">Ketchup</label>
+            <input type="checkbox" class="ingredient" name="" id="ketchup">
+            <label for="ketchup">add</label>
+        </div>
+        
+        <div>
+            Discount Coupon
+            <input type="text" placeholder="12354ABCDEF" id="discount">
+        </div>
+    </form>
     
-    <div>
-        Discount Coupon
-        <input type="text" placeholder="12354ABCDEF" id="">
-    </div>
 
-    <button>Calculate</button>
+    <button id="calculate">Calculate</button>
 
     <div>
         Your price
-        <span>$450</span>
+        <span id="total">$</span>
     </div>
 </body>
 </html>
