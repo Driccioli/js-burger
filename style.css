@@ -1,0 +1,80 @@
+.create-burger{
+    width: 100%;
+    background-color: #FDBB40;
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+}
+
+body{
+    width:70%;
+    margin: auto;
+}
+
+.create-burger > h1{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.create-burger > img{
+    position: absolute;
+    top: -25px;
+    right: -30px;
+    max-width: 160px;
+}
+
+.ingredient-item{
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.ingredient-item > img{
+    width: 50px;
+}
+
+input{
+    border: none;
+    background-color: rgba(255, 198, 198, 0.63);
+}
+
+#burgerName{
+    font-size: 25px;
+    background-color: rgba(0,0,0,0);
+    margin-top: 10px;
+}
+
+.add{
+    color: red;
+}
+
+.coupon{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#discount{
+    width: 70%;
+}
+
+#calculate{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+.price{
+    position: fixed;
+    width:70%;
+    bottom: 0;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(219, 76, 143);
+}
+
+.center{
+    width: 100%;
+    text-align: center;
+}
