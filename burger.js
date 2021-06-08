@@ -23,6 +23,6 @@ calculate.addEventListener('click', function(){
     if(discount.value.length == 11){
         price -= (price/5);
     }
-    document.getElementById("total").innerHTML = burgerName + " è " + "$" + price.toFixed(2); 
+    document.getElementById("total").innerHTML = "$" + price.toFixed(2); 
 })
 

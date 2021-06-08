@@ -10,22 +10,23 @@
 </head>
 <body>
     <div class="create-burger">
+        <img src="img/burger-top.png" alt="Burger" id="mobile-burger">
         <h1>Create Your Burger</h1>
-        <img src="img/burger-top.png" alt="Burger">
+        <img src="img/burger-top.png" alt="Burger" id="desktop-burger">
     </div>
-    <br>
+    <br>    
     <input type="text" placeholder="Name Your Burger" id="burgerName">
     <h4>Ingredients</h4>
     <form>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 ingredient-item">
+                <div class="col-6 ingredient-item">
                     <img src="img/cheese.svg" alt="Cheese">
                     <label for="cheese">Cheese</label>
                     <input type="checkbox" class="ingredient" name="" id="cheese">
                     <label class="add" for="cheese">add</label>
                 </div>
-                <div class="col-lg-6 ingredient-item">
+                <div class="col-6 ingredient-item">
                     <img src="img/tomato.svg" alt="Tomato">
                     <label for="tomato">Tomato</label>
                     <input type="checkbox" class="ingredient" name="" id="tomato">
@@ -33,13 +34,13 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 ingredient-item">
+                <div class="col-6 ingredient-item">
                     <img src="img/fried-egg.svg" alt="Egg">
                     <label for="egg">Egg</label>
                     <input type="checkbox" class="ingredient" name="" id="egg">
                     <label class="add" for="egg">add</label>
                 </div>
-                <div class="col-lg-6 ingredient-item">
+                <div class="col-6 ingredient-item">
                     <img src="img/lettuce.svg" alt="Lettuce">
                     <label for="lettuce">Lettuce</label>
                     <input type="checkbox" class="ingredient" name="" id="lettuce">
@@ -47,13 +48,13 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 ingredient-item">
+                <div class="col-6 ingredient-item">
                     <img src="img/mustard.svg" alt="Mustard">
                     <label for="mustard">Mustard</label>
                     <input type="checkbox" class="ingredient" name="" id="mustard">
                     <label class="add" for="mustard">add</label>
                 </div>
-                <div class="col-lg-6 ingredient-item">
+                <div class="col-6 ingredient-item">
                     <img src="img/ketchup.svg" alt="Ketchup">
                     <label for="ketchup">Ketchup</label>
                     <input type="checkbox" class="ingredient" name="" id="ketchup">
@@ -75,8 +76,8 @@
     </div>
     
 
-    <div class="price">
-        Il prezzo di
+    <div class="price d-flex justify-content-between">
+        Prezzo:
         <span id="total"></span>
     </div>
 
